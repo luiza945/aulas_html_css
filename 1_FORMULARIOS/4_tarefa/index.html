@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Basico</title>
+</head>
+<body>
+    <form action="">
+        <div>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" placeholder="Digite o seu nome" required>
+        </div>
+        <div>
+            <label for="sobrenome">Sobrenome</label>
+            <input type="text" id="sobrenome" placeholder="Digite seu Sobrenome">
+        </div>
+        <div>
+            <label for="idade">Idade</label>
+            <input type="text" id="Idade" placeholder="Digite sua Idade">
+        </div>
+        <div>
+            <label for="data de nascimento">Data de nascimento</label>
+            <input type="text" id="data de nascimento" placeholder="Digite sua data de nascimento">
+        </div>
+
+
+        <!-- input radio -->
+        <div>
+           <p>Voce aceita Jesus?</p>
+
+           <div>
+            <input type="radio" id="Sim" name="aceita-jesus">
+            <label for="Sim">Sim</label>
+           </div>
+           <div>
+            <input type="radio" id="nao" name="aceita-jesus">
+            <label for="nao">Não</label>
+           </div>
+           <div>
+            <input type="radio" id="talvez" name="aceita-jesus">
+            <label for="talvez">Talvez</label>
+           </div>
+           <div>
+            <input type="radio" id="nao sei" name="aceita-jesus">
+            <label for="nao sei">Não sei</label>
+           </div>
+        </div>
+
+        <!-- select e option -->
+        <div>
+            <label for="igreja">Selecione sua igreja:</label>
+            <select name="igreja" id="igreja">
+                <option selected disabled>Selecione...</option>
+                <option value="Igreja de parede preta">Igreja de parede preta</option>
+                <option value="Assembleia">Assembleia</option>
+                <option value="Adventista">Adventista</option>
+                <option value="Catolica">Catolica</option>
+            
+            </select>
+        </div>
+
+        <button>Enviar</button>
+    </form>
+</body>
+</html>
