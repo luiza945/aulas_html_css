@@ -1,0 +1,25 @@
+#titulo {
+    color: dodgerblue;
+}
+
+.roxo {
+    color: blueviolet;
+}
+
+h1 {
+    color: darkorchid;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+p {
+    color: plum;
+}
+
+h1 {
+    color: cornflowerblue;
+}
+
+.titulos-grandes
+{
+    font-size: 40px;
+}
